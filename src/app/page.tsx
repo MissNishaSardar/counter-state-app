@@ -21,6 +21,7 @@ const page = () => {
 						Basic Counter App
 					</CardTitle>
 				</CardHeader>
+
 				<CardContent>
 					<Basic />
 				</CardContent>
