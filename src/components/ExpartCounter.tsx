@@ -31,7 +31,7 @@ const ExpartCounter = () => {
 	return (
 		<section className="grid place-items-center space-y-4">
 			<div className="text-xl">
-				Counter Value: <span className="">{count}</span>
+				Counter Value: <span className="font-semibold">{count}</span>
 			</div>
 			<div className="grid grid-cols-2 gap-4">
 				<Button
