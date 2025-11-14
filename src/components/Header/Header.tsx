@@ -8,15 +8,11 @@ const Header = () => {
 			aria-label="app-header">
 			<div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3">
 				<Link href={"/"}>
-					<h1
-						className="text-2xl font-semibold"
-						aria-label="App Name">
-						NSP App
-					</h1>
+					<h1 className="text-2xl font-semibold">Counter State App</h1>
 				</Link>
 
 				<nav className="flex items-center gap-4">
-					<Link href={"/"}>Home</Link>
+					<Link href={"/"}>Basic</Link>
 
 					<ThemeToggleButton />
 				</nav>
